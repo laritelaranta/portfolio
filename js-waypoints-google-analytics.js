@@ -1,12 +1,3 @@
-// Declare slides script
-$(function() {
-	$('#slides').slides({
-		preload: true,
-		pagination: true,
-		play: 8000
-	});
-});
-
 // Declare stopwatch to avoid unnecessary GA push actions while scrolling
 function Stopwatch(){
 	var startTime, endTime, instance = this;
@@ -69,26 +60,4 @@ $(document).ready(function() {
 	
 	// Register each section as a waypoint
 	$('div.header').waypoint({ offset: '50%' });
-	
-	$('#menu').onePageNav({
-		begin: function() {
-			// iOS hack so you can click other menu items after the initial click
-			$('body').append('<div id="device-dummy" style="height: 1px;"></div>');
-		},
-		end: function() {
-			$('#device-dummy').remove();
-		}
-	});
 });
-
-// Hide or show toggle
-function toggle(id,id2) {
-	var state = document.getElementById(id).style.display;
-	if (state == 'table') {
-		document.getElementById(id).style.display = 'none';
-		document.getElementById(id2).style.display = 'table';
-	} else {
-		document.getElementById(id).style.display = 'table';
-		document.getElementById(id2).style.display = 'none';
-	}
-}

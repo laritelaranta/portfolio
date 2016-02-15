@@ -1,0 +1,49 @@
+{
+    "settings" : {
+        "showIntroScreen" : true,
+        "showConfirmDialog" : true,
+        "env" : {
+            "prod" : {
+                "promoID" : 111
+            }
+        },
+        "localApi" : "",
+		"startDate":"11/12/2015",
+		"expiryDate" : "17/12/2015",
+        "checkPerDay": false,
+        "dataServiceRequests" : {
+            "checkPromoExpiry" : {
+                "execute" : "true"
+            },
+            "checkMemberEligibility" : {
+                "execute" : "false",
+            },
+            "checkPreviousRounds" : {
+                "execute" : "true"
+            }
+        },
+    },
+
+    "content" : {
+        "staticScreen" : {
+            "headerImageName" : "vip-tile",
+            "title" : "",
+            "mainContent" : "<p>Content</p>",
+            "playNowLabel" : "View Games",
+            "termsLabel" : "Terms and Conditions",
+            "playURL" : "/"
+        },
+
+        "notEligibleScreen" : {
+            "body" : "<p>You are not eligible to view this promotion.<br/> Look out for other exciting ways to win.</p>"
+        },
+
+        "expiredScreen" : {
+            "body" : "<p>This promotion has expired. <br/> Look out for other exciting ways to win.</p>"
+        },
+
+        "errorScreen" : {
+            "body" : "<p>An error occured whilst sending your data. Error 2. Please try again later.</p>"
+        }
+    }
+}

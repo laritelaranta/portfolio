@@ -1,0 +1,25 @@
+/*
+ * SMACSS + SCSS Structure for promo projects
+ *
+ */
+
+//Compass 
+@import "compass";
+
+// Reset style
+@import "../../node_modules/sass/common/normalize";
+
+// Venture style
+@import "../../node_modules/sass/venture";
+
+/* functions if using any */
+@import  "../../node_modules/sass/libs/mixins";
+@import  "../../node_modules/sass/common/component";
+
+@import "base/base";
+
+/* pages */
+@import "pages/staticScreen";
+
+/* media Overwrite */
+@import "mediaQuery";

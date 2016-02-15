@@ -1,0 +1,52 @@
+#static-screen {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding-top:10px;
+	
+     section{
+        background: url("../images/accept-bg.png") no-repeat center top;
+        max-width: 1155px;
+        height: 582px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .subTitle{
+        h3{
+            text-align: center;
+            color:white;
+            font-size:2.8em;
+            width: 70%;
+            padding: 20px 0 0;
+            margin: 0 auto;
+        }
+    }
+    
+    .mainContentWrap{
+        max-width: 500px;
+        height:380px;
+        width:90%;
+        margin:50px auto 0;
+        background:rgba(0,0,0,0.5);
+        @include box-shadow(rgba(0,0,0,0.5) 0px 0px 10px);
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .mainContent{
+        color:white;
+        padding-top: 20px;
+    
+         p{   
+            font-size: 1.3em;
+            font-weight: 300;
+            line-height: 1.5em;
+        }
+    }
+    
+    .btn-white{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,132 @@
+@media all and (max-width: 460px) {
+    
+    #static-screen section{
+        background-size: 280%;
+        height: 500px;
+    }
+	
+}
+
+
+/* iPhone 6 (portrait) */
+@media all and (max-width:400px) {
+    
+    #static-screen{
+        section{
+            background-size: 280%;
+            height: 500px;
+        }
+        .mainContentWrap{
+            height: 280px;
+        }
+        .mainContent {
+            padding-top: 20px;
+        }
+        .subTitle p{
+            font-size:1.1em;
+        }
+        .btn-wrap{
+             margin-top: 20px;
+        }
+        .btn-white{
+             width: 120px;    
+        }
+    }
+    
+}
+
+/* iPhone 6 (portrait) */
+@media all and (max-width:360px) {
+    .title h1{
+        font-size:1.2em;
+    }
+    
+    #static-screen{
+        section {
+            background-size: 279%;
+            height: 450px;
+        }
+        .subTitle h3{
+            font-size: 2em;
+        }
+        
+        .mainContentWrap{
+            margin-top:40px;
+            height: 320px;
+        
+        }
+        .mainContent{
+            h1{
+                margin: 0.3em 0;
+            }
+        }
+        
+        .btn-white {
+            margin-top: 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 444px) {
+	#static-screen {
+        #terms, .lobby {
+            max-width: 348px;
+        }
+
+        .responsive-img-holder {
+            height: 204px;
+        }
+
+		.leaderboard {
+			width: 95%;
+		}
+    }
+}
+
+@media only screen and (min-width: 588px) {
+	#static-screen {
+        #terms, .lobby {
+            max-width: 372px;
+        }
+
+        .responsive-img-holder {
+            height: 276px;
+        }
+
+		.leaderboard {
+			width: 95%;
+		}
+    }
+}
+
+@media only screen and (min-width: 684px) {
+	#static-screen {
+        #terms, .lobby {
+            max-width: 432px;
+        }
+
+        .responsive-img-holder {
+            height: 324px;
+        }
+
+		.leaderboard {
+			width: 90%;
+		}
+    }
+}
+
+@media only screen and (min-width: 972px) {
+	#static-screen {
+        #terms, .lobby {
+            max-width: 468px;
+        }
+
+        .responsive-img-holder {
+            height: 468px;
+        }
+
+		.leaderboard {
+			width: 80%;
+		}
+    }
+}
