@@ -8,8 +8,8 @@
             }
         },
         "localApi" : "",
-		"startDate":"11/12/2015",
-		"expiryDate" : "17/12/2015",
+		"startDate":"11/12/2016",
+		"expiryDate" : "17/12/2016",
         "checkPerDay": false,
         "dataServiceRequests" : {
             "checkPromoExpiry" : {
